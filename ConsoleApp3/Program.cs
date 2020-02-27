@@ -19,9 +19,13 @@ namespace ConsoleApp3
             String b_str = Console.ReadLine();
             Console.Write("Введите c>");
             String c_str = Console.ReadLine();
-            int a = int.Parse(a_str);
-            int b = int.Parse(b_str);
-            int c = int.Parse(c_str);
+            Console.Write("Введите x_min>");
+            String x_min_str = Console.ReadLine();
+            double a = double.Parse(a_str);
+            double b = double.Parse(b_str);
+            double c = double.Parse(c_str);
+            double x_min = double.Parse(x_min_str);
+            double x_max = double.Parse(x_min_str);
         }
 
         static double ReadValue(string Msg)
